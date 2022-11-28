@@ -1,0 +1,9 @@
+{
+  "name": "trentons-discord-bot",
+  "author": "Jacob Lee <jacob@polybit.com>",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest",
+    "findahaiku": "^1.1.2"
+  }
+}

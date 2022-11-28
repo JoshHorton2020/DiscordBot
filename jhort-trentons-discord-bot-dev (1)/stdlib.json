@@ -1,0 +1,22 @@
+{
+  "name": "jhort/trentons-discord-bot",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/bot_mention.js": {
+      "name": "discord.bot_mention"
+    },
+    "functions/events/discord/command.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "member-count"
+      }
+    },
+    "functions/events/autocode/self/deployed.js": {
+      "name": "autocode.self.deployed"
+    },
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    }
+  }
+}
