@@ -1,6 +1,6 @@
 {
   "name": "trentons-discord-bot",
-  "author": "Jacob Lee <jacob@polybit.com>",
+  "author": "Josh Horton <josh.horton178@gmail.com>",
   "publish": false,
   "dependencies": {
     "lib": "latest",
